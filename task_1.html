@@ -1,8 +1,45 @@
+<!DOCTYPE html>
 <html>
 <head>
-
+    <meta charset="utf-8" />
+    <title>Add Teacher</title>
 </head>
 <body>
+    <h1>Add Teacher</h1>
 
+    <form>
+        <label for="fullname">Full Name:</label>
+        <input type="text" id="fullname" name="fullname" required><br><br>
+
+        <label for="gender">Gender:</label>
+        <select id="gender" name="gender" required>
+            <option value="male">Male</option>
+            <option value="female">Female</option>
+            <option value="other">Other</option>
+        </select><br><br>
+
+        <label for="dob">Date of Birth:</label>
+        <input type="date" id="dob" name="dob" required><br><br>
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required><br><br>
+
+        <label for="phone">Phone Number:</label>
+        <input type="tel" id="phone" name="phone" required><br><br>
+
+        <label for="bgcolor">Preferred Background Color:</label>
+        <input type="color" id="bgcolor" name="bgcolor"><br><br>
+
+        <label for="country">Country:</label>
+        <input type="text" id="country" name="country" required><br><br>
+
+        <label for="city">City:</label>
+        <input type="text" id="city" name="city" required><br><br>
+
+        <label for="comment">Comment:</label>
+        <textarea id="comment" name="comment" rows="4" cols="30"></textarea><br><br>
+
+        <input type="submit" value="Submit">
+    </form>
 </body>
 </html>
